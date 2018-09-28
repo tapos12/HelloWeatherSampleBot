@@ -15,6 +15,7 @@ The use case for the bot is, it will respond question based on weather of some s
 Based on this intent, for simplicity, I just used some random values and variety weather condition in random as a repond of the bot.
 
 An overview of the story is given below-
+![alt text](https://github.com/tapos12/HelloWeatherSampleBot/blob/master/graph.png?raw=true)
 
 ## Installing + Running
 
