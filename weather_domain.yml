@@ -1,0 +1,34 @@
+slots:
+  location:
+    type: text
+
+
+intents:
+ - greet
+ - goodbye
+ - ask_weather
+ - ask_weather_location
+ - ask_temperature
+
+
+entities:
+ - location
+
+templates:
+  utter_greet:
+    - 'Hello, What can I do for you?'
+    - 'Hello!'
+  utter_goodbye:
+    - 'Bye'
+    - 'See you soon'
+  utter_ask_location:
+    - 'In what location?'
+    - 'Which area?'
+    - 'Which city specifically?'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_location
+ - action_weather
+ - action_temp

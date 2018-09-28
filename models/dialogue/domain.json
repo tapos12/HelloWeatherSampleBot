@@ -1,0 +1,19 @@
+{
+  "states": [
+    "intent_ask_temperature",
+    "intent_ask_weather",
+    "intent_ask_weather_location",
+    "intent_goodbye",
+    "intent_greet",
+    "entity_location",
+    "slot_location_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_location",
+    "prev_action_weather",
+    "prev_action_temp"
+  ]
+}
